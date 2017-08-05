@@ -1,0 +1,13 @@
+﻿<UserControl x:Class="MyBrowser.UI.WinApp.CustomControl.WebView.WebView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:MyBrowser.UI.WinApp.CustomControl.WebView"
+             xmlns:cefGlue="clr-namespace:Xilium.CefGlue.WPF;assembly=Xilium.CefGlue.WPF"
+             mc:Ignorable="d" 
+             d:DesignHeight="1024" d:DesignWidth="768">
+    <Grid>
+        <cefGlue:WpfCefBrowser Name="webBrowser" ></cefGlue:WpfCefBrowser>
+    </Grid>
+</UserControl>
